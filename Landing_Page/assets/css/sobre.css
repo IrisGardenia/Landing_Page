@@ -1,0 +1,10 @@
+.bg-sucess{
+    background-color: rgba(239, 246, 240, 1);
+}
+.bg-sucess-1{
+    background-color: rgba(126, 182, 133, 1);
+    border: none;
+}
+.text-sucess{
+    color:  rgba(126, 182, 133, 1);
+}
