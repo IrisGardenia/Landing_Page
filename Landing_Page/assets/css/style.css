@@ -1,0 +1,356 @@
+body {
+    background-color: #EFF6F0;
+    font-family: Arial, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -22px;
+    background-color: #eff6ef;
+
+}
+
+.botao-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7eb685;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.botao {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    user-select: none;
+
+}
+
+main {
+
+    margin-top: -20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #eff6ef;
+}
+
+main h3 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #6aa872;
+    transform: scale(1.05);
+}
+
+.botao:not(:first-child) {
+    border-left: 1px solid white;
+}
+
+header h1 {
+    font-size: 36px;
+    padding-top: 100px;
+
+}
+
+header h2 {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+header {
+    /*  background-color: #eff6ef;*/
+    background-color: #eff6ef;
+    color: white;
+}
+
+@media screen and (min-width: 501px) {
+    .text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .botao-container {
+        left: 200px;
+    }
+
+    header h1,
+    header h2,
+    header button {
+        margin: 0 auto;
+        margin-left: -80px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .imagem {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .imagem img {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .button-container {
+        margin-left: -90px;
+    }
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+header button {
+    padding: 6px;
+    margin-top: 10px;
+    background-color: #7eb685;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 3%;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+header button:hover {
+    background-color: #6aa872;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+header img {
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+header .imagem img:hover {
+    transform: scale(1.05);
+}
+
+.whatsapp-botao {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #7eb685;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+
+.whatsapp-botao:hover {
+    background-color: #6aa872;
+    transform: scale(1.05);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 60%;
+}
+
+.imagem {
+    margin-top: 130px;
+    width: 40%;
+    text-align: right;
+    margin-right: 2%;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagem img {
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/*virar icone menor*/
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .imagem {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem img {
+        max-width: 85%;
+        margin-top: -90px;
+    }
+}
+
+header .whatsapp-icone img {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+
+@media screen and (min-width: 481px) and (max-width: 500px) {
+
+    header .container {
+        max-width: 95%;
+        margin: 0 auto;
+        padding-left: 3%;
+        padding-right: 1%;
+    }
+
+    header h1,
+    header h2,
+    header button {
+        margin-left: -3%;
+        margin-right: 2%;
+    }
+
+    .imagem img {
+        max-width: 85%;
+        margin-left: 1%;
+        margin-top: -70px;
+        height: auto;
+        display: block;
+    }
+
+    .botao-container {
+        left: 210px;
+    }
+
+    .text {
+        left: 20px;
+    }
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+
+.whatsapp-icone {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    cursor: pointer;
+    z-index: 9;
+    border: none;
+}
+
+.whatsapp-icone img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Mostrar ícone e esconder botão grande em telas menores */
+@media screen and (max-width: 576px) {
+
+    header .text h1 {
+        left: 20px;
+    }
+
+    .whatsapp-botao {
+        display: none;
+    }
+
+    .whatsapp-icone {
+        display: block;
+    }
+
+    .text {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 576px) {
+    .text {
+        left: 100px !important;
+        margin-left: 100px !important;
+    }
+}
+
+.botao-container {
+    margin-left: -50px;
+}
+
+@media screen and (min-width: 60px) {
+    .container {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .text,
+    .image {
+        margin-left: 8%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .whatsapp-botao {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 767px) {}
+
+.botao-container {
+    left: 280px;
+}
+
+@media screen and (min-width: 400px) {
+    .custom-cards {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+
+.card-hover img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .row a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container .row a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
