@@ -8,3 +8,21 @@
 .text-sucess{
     color:  rgba(126, 182, 133, 1);
 }
+ .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+}
+
+.btn-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+.btn-email {
+    background-color: #0072c6;
+    color: white;
+}
+
+.btn i {
+    margin-right: 8px;
+}
