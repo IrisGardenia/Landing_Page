@@ -354,3 +354,44 @@ header .whatsapp-icone img {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
+
+
+.footer {
+    background-color: #eff6ef;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+.footer .container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-footer {
+    display: inline-block;
+    background-color: #7eb685;
+    color: white;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.btn-footer:hover {
+    background-color: #6aa872;
+    transform: scale(1.05);
+}
+
+.direitos {
+    font-size: 14px;
+    color: #777;
+}
+
