@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 
 <head>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinicius Pasolini</title>
@@ -17,14 +17,14 @@
         <div class="container">
 
             <div class="botao-container">
-                <div class="botao" onclick="redirecionar('inicio.html')">Início</div>
-                <div class="botao" onclick="redirecionar('sobre.html')">Sobre</div>
-                <div class="botao" onclick="redirecionar('contato.html')">Contato</div>
+                <div class="botao" onclick="redirecionar('pages/inicio.html')">Início</div>
+                <div class="botao" onclick="redirecionar('pages/sobre.html')">Sobre</div>
+                <div class="botao" onclick="redirecionar('pages/contato.html')">Contato</div>
             </div>
 
             <!-- Ícone WhatsApp para telas pequenas -->
             <div class="whatsapp-icone" onclick="window.open('https://wa.me/...', '_blank')">
-                <img src="assets/icone_zap.png" alt="WhatsApp" />
+                <img src="assets/img/icone_zap.png" alt="WhatsApp" />
             </div>
 
             <!--Botão para telas grandes -->
@@ -46,7 +46,7 @@
 
             </div>
             <div class="imagem">
-                <img src="assets/pasolini.jpg" alt="Foto do psicólogo Vinicius Pasolini">
+                <img src="assets/img/pasolini.jpg" alt="Foto do psicólogo Vinicius Pasolini">
 
             </div>
         </div>
@@ -59,23 +59,24 @@
             <div class="container mt-5">
                 <div class="row justify-content-center mx-auto" style="max-width: 1000px;">
                     <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
-                        <a href="pagina1.html">
-                            <img src="assets/terapia_adulta.png" class="img-fluid rounded shadow" alt="Terapia adulta">
+                        <a href="pages/terapiaAdulta.html">
+                            <img src="assets/img/terapia_adulta.png" class="img-fluid rounded shadow"
+                                alt="Terapia adulta">
                         </a>
                         <h5 class="text-center mt-2">Terapia adulta</h5>
                     </div>
 
                     <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
-                        <a href="pagina2.html">
-                            <img src="assets/terapia_infantil.png" class="img-fluid rounded shadow"
+                        <a href="pages/terapiaInfantil.html">
+                            <img src="assets/img/terapia_infantil - Copia.png" class="img-fluid rounded shadow"
                                 alt="Terapia infantil">
                         </a>
                         <h5 class="text-center mt-2">Terapia infantil</h5>
                     </div>
 
                     <div class="col-12 col-md-4 mb-4 d-flex flex-column align-items-center">
-                        <a href="pagina3.html">
-                            <img src="assets/atendimentos.jpg" class="img-fluid rounded shadow" alt="Atendimentos">
+                        <a href="pages/agendamentos.html">
+                            <img src="assets/img/atendimentos.jpg" class="img-fluid rounded shadow" alt="Atendimentos">
                         </a>
                         <h5 class="text-center mt-2">Atendimentos</h5>
                     </div>
@@ -83,10 +84,9 @@
             </div>
         </div>
     </main>
-    </main>
 
-    <footer>
-        <p> </p>
+    <footer class="footer">
+        
     </footer>
     <script src="script.js"></script>
 </body>
